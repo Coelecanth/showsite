@@ -1,0 +1,16 @@
+# gitpod.yml
+
+tasks:
+  - name: Run Python Web Server
+    init: |
+      echo "Setting up Python web server..."
+      # You can install any necessary dependencies here if needed
+      # For example, if you're using additional Python packages, you can install them like:
+      # pip install -r requirements.txt
+    command: |
+      # Start Python's built-in HTTP server on port 8080
+      python3 -m http.server 8080
+
+ports:
+  - port: 8080
+    onOpen: open-preview  # Automatically open the preview for the web server
