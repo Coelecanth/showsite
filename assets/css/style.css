@@ -1,4 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&family=Imprima&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+.titillium {
+ font-family: "Titillium Web"; 
+}
+.exo {
+    font-family: "Exo"; 
+}
+.imprima {
+    font-family: "Imprima";
+}
 
 /*--------------------------------------------Colors*/
 
@@ -8,6 +19,12 @@
 
 .bg-color-three-reasons {
     background-color: #ffffff;
+}
+.bg-color-personal-black {
+    background-color: #000000;
+}
+.bg-color-personal-white {
+    background-color: #FFFFFF;
 }
 
 .bg-color-personal-info {
@@ -34,50 +51,36 @@
     background-color: #ffffff;
 }
 
-.ui-menu-color-home {
-    background-color: #e67e22;
-}
-
-.ui-menu-color-resume {
-    background-color: #9b59b6;
-}
-
-.ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
-    background-color: #4009e613;
-}
-
-
-.ui-menu-color-github {
-    background-color: #1c4a6c;
-}
-
-.ui-menu-color-interests {
-    background-color: #e74c3c;
-}
-
-
-
-
 body {
-    font-family: Roboto, sans-serif;
+    font-family: imprima, sans-serif;
     font-weight: 300;
     background-color: #525252;
-    color: #555555;
+    color: #000000;
 }
+
+/* ============ general text setting used through out site- detailed settings see below ================== */
+.text-upc {
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: #FFFFFF;
+}
+
+.text-black {
+    color: #000;
+}
+
 
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
-h1,
+/* h1,
 h2,
 h3,
 h4 {
     margin: 0;
-}
+} */
 
 .uppercase {
     text-transform: uppercase;
@@ -113,7 +116,8 @@ header {
     margin: 0;
 }
 
-.heading {
+.m-heading {
+    margin-top: 25px;
     margin-left: 50px;
 }
 
@@ -128,21 +132,25 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+
+
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
+    font-weight: 300;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff;
+    margin-left: 50px;
+    
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
-    font-weight: 200;
+    font-family: "titillium", sans-serif;
+    font-weight: 400;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #ffffff;
+    font-family: "titillium", sans-serif;
+    margin-left: 50px;
 }
 
 #nav {
@@ -193,6 +201,10 @@ header {
     height: 120px;
 }
 
+.hvr-sweep-to-bottom-black:before {
+    background: rgba(F, F, F, 0.2);
+    height: 120px;
+}
 
 /*--------------------------------------------Footer*/
 
