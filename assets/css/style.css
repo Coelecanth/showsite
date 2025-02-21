@@ -24,7 +24,7 @@
     background-color: #000000;
 }
 .bg-color-personal-white {
-    background-color: #FFFFFF;
+    background-color: #fff4ff75;
 }
 
 .bg-color-personal-info {
@@ -144,12 +144,20 @@ header {
 }
 
 .title {
-    font-family: "titillium", sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 400;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    font-family: "titillium", sans-serif;
+    margin-left: 50px;
+}
+
+.parag {
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     margin-left: 50px;
 }
 
