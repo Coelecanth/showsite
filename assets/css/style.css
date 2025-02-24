@@ -52,8 +52,8 @@
 }
 
 body {
-    font-family: imprima, sans-serif;
-    font-weight: 300;
+    font-family: Exo, sans-serif;
+    font-weight: 400;
     background-color: #525252;
     color: #000000;
 }
@@ -70,8 +70,29 @@ body {
 .text-black {
     color: #000;
 }
+.text-grey {
+    color: #827d7d87;
+}
 
+/* ============ icon footer formatting ================== */
+.icon-footer {
+    
+    color: black;
+    line-height: 36px;
+    font-size: 32px; /* Adjusts icon size */
+    height: 40px; /* Adjusts height */
+    width: 40px; /* Adjusts width */
+    display: inline-flex; /* Ensures proper alignment */
+    align-items: center; /* Centers content */
+    justify-content: center; /* Centers content */
 
+}
+
+.icon-footer:hover,
+.icon-footer:active,
+.icon-footer:focus {
+    color: red;
+}
 
 /*--------------------------------------------Special Paddings/Margins/Text*/
 
@@ -241,46 +262,6 @@ footer {
     min-height: 120px;
     margin: 0;
 }
-
-footer .cv-pdf i {
-    color: #fafafa;
-    text-align: center;
-    font-size: 18px;
-    padding-left: 5px;
-}
-
-footer .cv-pdf i:hover {
-    color: #e84610;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links {
-    padding-bottom: 15px;
-}
-
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 12px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #8f8f8f;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #e84610;
-}
-
 #footer-details {
     margin: 20px;
 }
@@ -425,6 +406,19 @@ button[type="submit"] {
     color: #fafafa;
 }
 
+/* foooter foramtting for links
+.list-inline {
+    display:block;
+  }
+  .list-inline li {
+    display:inline-block;
+  }
+  .list-inline li:after {
+    content:'|';
+    margin:0 10px;
+  } */
+
+
 /*--------------------------------------------Map*/
 div#map {
     min-height: 360px;
@@ -446,3 +440,5 @@ div#map {
         max-width: 50%;
     }
 }
+
+
